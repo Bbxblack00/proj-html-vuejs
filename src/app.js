@@ -1,5 +1,18 @@
-function init() {
-  console.log('ciao mondo');
+function initVue() {
+
+  new Vue({
+  el: '#app',
+  data: {
+    links: [
+      'Home',
+      'Pages',
+      'Courses',
+      'features',
+      'Blog',
+      'Shop'
+    ]
+  }
+
 }
 
-init();
+$(initVue);

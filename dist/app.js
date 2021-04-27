@@ -7,11 +7,7 @@
   \********************/
 /***/ (() => {
 
-function init() {
-  console.log('ciao mondo');
-}
-
-init();
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\sass\\proj-html-vuejs\\src\\app.js: Unexpected token, expected \",\" (15:0)\n\n\u001b[0m \u001b[90m 13 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m $(initVue)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m\u001b[0m\n    at Parser._raise (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at Parser.raiseWithData (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at Parser.raise (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at Parser.unexpected (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:9736:16)\n    at Parser.expect (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:9722:28)\n    at Parser.parseExprList (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11823:14)\n    at Parser.parseNewArguments (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11415:25)\n    at Parser.parseNew (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11409:10)\n    at Parser.parseNewOrNewTarget (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11395:17)\n    at Parser.parseExprAtom (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11063:21)");
 
 /***/ }),
 
