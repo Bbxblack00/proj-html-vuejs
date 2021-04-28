@@ -150,29 +150,6 @@ header {
 
   margin-top: 100px;
 
-  .text {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    height: 100%;
-    width: 385px;
-
-    h1 {
-      margin: 10px 0;
-
-      font-size: 45px;
-    }
-    a {
-      text-decoration: none;
-      color: $lk-watergreen;
-
-      &:hover{
-        text-decoration: underline;
-      }
-    }
-  }
-
   .row:last-child{
     background-image: url(img/office.jpg);
 
@@ -186,6 +163,29 @@ header {
       right: -465px;
 
       border-radius: 5px;
+    }
+  }
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 100%;
+  width: 385px;
+
+  h1 {
+    margin: 10px 0;
+
+    font-size: 45px;
+  }
+  a {
+    text-decoration: none;
+    color: $lk-watergreen;
+
+    &:hover{
+      text-decoration: underline;
     }
   }
 }
@@ -214,4 +214,13 @@ header {
       margin: 0 250px;
     }
   }
+}
+
+.container.tube {
+  justify-content: center;
+  flex-wrap: wrap;
+
+  height: 550px;
+
+  margin-top: 100px;
 }
