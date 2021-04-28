@@ -8,14 +8,13 @@ header {
 }
 
 #header-logo{
-  height: 36px;
-  width: 166px;
+  width: 250px;
 }
 
 
 // la classe inpage servirà a dare un padding al contenuto del blocco
 #jt {
-  background-color: #c7c7c7;
+  background-image: url('img/home-3-hero-bg.jpg');
 
   height: 670px;
   width: 100vw;
@@ -74,10 +73,12 @@ header {
         height: 100%;
         width: 100%;
 
-        span:nth-child(2) {
-          margin: auto 15px;
-
+        span {
           padding: 5px;
+        }
+
+        span:nth-child(2) {
+          margin: auto 25px;
 
           border: 2px solid black;
           border-radius: 100%;
@@ -92,7 +93,13 @@ header {
         button{
           @extend %search-prop;
 
-          color: 
+          color: $lk-watergreen;
+
+          &:hover {
+            color: white;
+
+            background-color: $lk-watergreen;
+          }
         }
       }
     }
