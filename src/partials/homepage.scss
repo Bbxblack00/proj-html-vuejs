@@ -2,6 +2,8 @@ header {
   background-color: rgb(255, 255, 255);
 
   position: fixed;
+  z-index: 1;
+
   top: 0;
 
   height: 80px;
@@ -151,16 +153,20 @@ header {
   margin-top: 100px;
 
   .row:last-child{
+    position: relative;
+    z-index: 0;
+
     background-image: url(img/office.jpg);
 
     width: 570px;
     height: 360px;
 
     img {
-      position: relative;
+      position: absolute;
+      z-index: 0;
 
       top: -95px;
-      right: -465px;
+      right: -95px;
 
       border-radius: 5px;
     }
@@ -223,4 +229,50 @@ header {
   height: 550px;
 
   margin-top: 100px;
+
+  .row:first-child{
+    position: relative;
+    z-index: 0;
+
+    background-image: url(img/youtube.png);
+
+    width: 671px;
+    height: 453px;
+
+    margin-right: 35px;
+  }
+}
+
+.container.transform{
+  justify-content: center;
+  flex-wrap: wrap;
+
+  height: 550px;
+
+  margin-top: 100px;
+
+  .row:first-child{
+    position: relative;
+    z-index: 0;
+
+    background-image: url(img/team.png);
+
+    width: 535px;
+    height: 496px;
+
+    margin-right: 35px;
+  }
+
+  button {
+    margin-top: 27px;
+    padding: 18px;
+
+    width: 225px;
+
+    @extend %bttn-style;
+
+    &:hover {
+      background-color: $lk-darkviolet;
+    }
+  }
 }

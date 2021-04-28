@@ -1,8 +1,14 @@
 // variables
 $lk-watergreen: #40E0D0;
 
+$lk-darkviolet: #3f146e;
 
 // Extend
+%fix-box {
+  position: fixed;
+  z-index: 1;
+}
+
 %form-green{
   color: #40E0D0;
   text-decoration: underline;
@@ -22,4 +28,12 @@ $lk-watergreen: #40E0D0;
 %icon-hover {
   color: #40E0D0;
    font-size: 17px;
+}
+
+%bttn-style {
+  background-color: $lk-watergreen;
+  color: white;
+
+  border: 0;
+  border-radius: 7px;
 }
