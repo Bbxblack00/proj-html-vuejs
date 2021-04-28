@@ -21,6 +21,8 @@ header {
   width: 100vw;
 
   margin-top: 80px;
+
+  padding: 0;
 }
 
 #inpage-c {
@@ -136,4 +138,27 @@ header {
         }
       }
     }
+}
+
+#f-space {
+  flex-direction: column;
+
+  height: 550px;
+  width: 1250px;
+
+  margin-top: 100px;
+
+  .row.text {
+    display: flex;
+    justify-content: flex-start;
+
+    height: 100%;
+    width: 385px;
+
+  }
+}
+
+.strong {
+  font-weight: bold;
+
 }
