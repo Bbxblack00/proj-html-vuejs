@@ -11,40 +11,49 @@
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
   </head>
-  <body id="app">
+  <body>
 
-    <header>
+    <div id="app">
+      <header>
 
-      <div class="container">
+        <div class="container">
 
-        <div class="row">
+          <div class="row">
 
-        </div>
+            <ul>
+              <li v-for="link in links">
+                <a href="#">{{ link }}</a>
+                <i class="fas fa-chevron-down sz-lt"></i>
+              </li>
+            </ul>
 
-        <img src="img/dark-logo.png" id="header-logo">
+          </div>
 
-        <div class="row">
+          <img src="img\dark-logo.png" id="header-logo">
 
-        </div>
+          <div class="row">
 
-      </div>
-    </header>
-
-    <main>
-      <!-- jumbo  -->
-      <section id="jt">
-
-        <div class="container inpage">
-
-          <h1>
-            CIAO
-            <i class="fas fa-chevron-down sz-lt"></i>
-          </h1>
+          </div>
 
         </div>
+      </header>
 
-      </section>
-    </main>
+      <main>
+        <!-- jumbo  -->
+        <section id="jt">
+
+          <div class="container inpage">
+
+            <h1>
+              CIAO
+              <i class="fas fa-chevron-down sz-lt"></i>
+            </h1>
+
+          </div>
+
+        </section>
+      </main>
+    </div>
 
   </body>
 </html>
