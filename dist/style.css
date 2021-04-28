@@ -17,6 +17,7 @@ header .row .sub-container button, header .row .sub-container input {
 header {
   background-color: white;
   position: fixed;
+  top: 0;
   height: 80px;
   width: 100vw;
 }
@@ -29,10 +30,35 @@ header {
   background-image: url(img/home-3-hero-bg.jpg);
   height: 670px;
   width: 100vw;
+  margin-top: 80px;
 }
 
-.inpage {
+#inpage-c {
   padding: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+}
+#inpage-c button {
+  width: 280px;
+  height: 53px;
+  border: 0;
+  border-radius: 3px;
+  color: #40E0D0;
+  background-color: white;
+  font-size: 20px;
+}
+#inpage-c button:hover {
+  color: white;
+  background-color: #40E0D0;
+}
+#inpage-c h1 {
+  margin-bottom: 7px;
+  font-size: 70px;
+  color: white;
+}
+#inpage-c h3 {
+  font-size: 45px;
+  color: white;
 }
 
 .sz-lt {
