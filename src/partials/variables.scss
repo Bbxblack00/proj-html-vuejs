@@ -7,3 +7,14 @@ $lk-watergreen: #40E0D0;
   color: #40E0D0;
   text-decoration: underline;
 }
+
+%text-font {
+  font-family: 'Open Sans', sans-serif;
+}
+
+%search-prop {
+  border: 0;
+  border-radius: 3px;
+
+  padding: 5px;
+}

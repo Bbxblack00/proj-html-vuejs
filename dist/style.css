@@ -1,6 +1,17 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
 header .row ul li a:hover {
   color: #40E0D0;
   text-decoration: underline;
+}
+
+body, a {
+  font-family: "Open Sans", sans-serif;
+}
+
+header .row .sub-container button, header .row .sub-container input {
+  border: 0;
+  border-radius: 3px;
+  padding: 5px;
 }
 
 header {
@@ -52,7 +63,21 @@ header .row ul li a {
 header .row ul li:hover {
   color: #40E0D0;
 }
-
+header .row .sub-container {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+header .row .sub-container span:nth-child(2) {
+  margin: auto 15px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+header .row .sub-container input {
+  background-color: #e6e6e6;
+}
 * {
   padding: 0;
   margin: 0;
