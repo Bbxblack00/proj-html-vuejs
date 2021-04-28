@@ -16,7 +16,7 @@ function initVue() {
   });
 }
 
-$(initVue);
+initVue();
 
 /***/ }),
 
