@@ -68,6 +68,8 @@ header {
       content: "";
       display: table;
       clear: both;
+
+      width: 492px;
       // prima riga
       ul{
         list-style: none;
@@ -103,7 +105,7 @@ header {
       // seconda riga
       .sub-container {
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-end;
 
         height: 100%;
         width: 100%;
@@ -141,24 +143,75 @@ header {
 }
 
 #f-space {
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 
   height: 550px;
-  width: 1250px;
 
   margin-top: 100px;
 
-  .row.text {
+  .text {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
 
     height: 100%;
     width: 385px;
 
+    h1 {
+      margin: 10px 0;
+
+      font-size: 45px;
+    }
+    a {
+      text-decoration: none;
+      color: $lk-watergreen;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .row:last-child{
+    background-image: url(img/office.jpg);
+
+    width: 570px;
+    height: 360px;
+
+    img {
+      position: relative;
+
+      top: -95px;
+      right: -465px;
+
+      border-radius: 5px;
+    }
   }
 }
 
 .strong {
   font-weight: bold;
 
+  color: black;
+}
+
+#mid-color-gray {
+  color: gray;
+}
+
+.tx-green {
+  color: $lk-watergreen;
+}
+
+.container.data{
+  justify-content: center;
+
+  .row{
+    text-align: center;
+
+    &:nth-child(2) {
+      margin: 0 250px;
+    }
+  }
 }
