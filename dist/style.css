@@ -24,15 +24,20 @@ header {
   font-size: 15px;
 }
 
-header .row {
+header ul {
+  list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
   height: 56px;
 }
-header .row ul {
-  list-style: none;
+header ul li {
+  margin: 15px;
+}
+header ul li a {
+  color: black;
+  text-decoration: none;
 }
 
 * {
