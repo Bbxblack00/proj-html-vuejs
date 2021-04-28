@@ -28,3 +28,19 @@ header {
 .sz-lt {
   font-size: 15px;
 }
+
+header {
+  .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    height: 56px;
+
+
+    ul{
+      list-style: none;
+    }
+  }
+}

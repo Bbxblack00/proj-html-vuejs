@@ -6,7 +6,6 @@ function initVue() {
     links: ['Home', 'Pages', 'Courses', 'features', 'Blog', 'Shop']
   }
 });
-
 }
 
 $(initVue);
