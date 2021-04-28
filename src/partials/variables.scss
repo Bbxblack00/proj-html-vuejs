@@ -1,2 +1,9 @@
 // variables
 $lk-watergreen: #40E0D0;
+
+
+// Extend
+%form-green{
+  color: #40E0D0;
+  text-decoration: underline;
+}

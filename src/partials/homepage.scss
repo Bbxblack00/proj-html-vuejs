@@ -30,8 +30,6 @@ header {
 }
 
 header {
-
-
     .row {
       content: "";
       display: table;
@@ -53,12 +51,16 @@ header {
           a{
             color: black;
             text-decoration: none;
+
+
+            &:hover {
+              @extend %form-green;
+            }
           }
 
           &:hover{
 
-            color: watergreen
-
+            color: $lk-watergreen;
           }
         }
       }
