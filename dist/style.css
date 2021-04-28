@@ -44,6 +44,10 @@ header .row ul li a {
   color: black;
   text-decoration: none;
 }
+header .row ul li:hover {
+  color: watergreen;
+}
+
 * {
   padding: 0;
   margin: 0;
