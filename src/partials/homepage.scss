@@ -277,17 +277,23 @@ header {
   }
 }
 
+#blg{
+  margin: 0;
+}
+
 
 .container.blogs{
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
 
+  background: $hl-gray;
+
   height: 793px;
 
   @extend %padding-roules;
 
-  width: 80%;
+  width: 100vw;
 
   .row:first-child{
     text-align: center;
@@ -301,8 +307,10 @@ header {
   }
 
   .row:last-child {
+    margin: 30px 15px;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
 
     .gray {
@@ -310,12 +318,26 @@ header {
     }
 
     img{
-    width: 95%;
+    width: 85%;
     border-radius: 5px;
     }
   }
 
   .benefits, .things, .calm{
-    width: 30%;
+    width: 20%;
+  }
+}
+
+.container.blogs{
+
+  .row {
+
+
+    h1 {
+      font-size: 45px;
+    }
+    h3 {
+      font-size: 15px;
+    }
   }
 }

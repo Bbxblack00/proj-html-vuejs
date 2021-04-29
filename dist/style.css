@@ -230,12 +230,17 @@ header .row .sub-container button:hover {
   background-color: #3f146e;
 }
 
+#blg {
+  margin: 0;
+}
+
 .container.blogs {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  background: whitesmoke;
   height: 793px;
-  width: 80%;
+  width: 100vw;
 }
 .container.blogs .row:first-child {
   text-align: center;
@@ -247,19 +252,27 @@ header .row .sub-container button:hover {
   font-size: 15px;
 }
 .container.blogs .row:last-child {
+  margin: 30px 15px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row;
 }
 .container.blogs .row:last-child .gray {
   margin-left: 7px;
 }
 .container.blogs .row:last-child img {
-  width: 95%;
+  width: 85%;
   border-radius: 5px;
 }
 .container.blogs .benefits, .container.blogs .things, .container.blogs .calm {
-  width: 30%;
+  width: 20%;
+}
+
+.container.blogs .row h1 {
+  font-size: 45px;
+}
+.container.blogs .row h3 {
+  font-size: 15px;
 }
 
 * {
