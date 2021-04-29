@@ -283,14 +283,15 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
 
-  display:
-
   height: 793px;
 
-  padding: 100px 0;
+  @extend %padding-roules;
+
   width: 80%;
 
-  text-align: center;
+  .row:first-child{
+    text-align: center;
+  }
 
   h1 {
     font-size: 45px;
@@ -306,6 +307,6 @@ header {
   }
 
   .benefits, .things, .calm {
-    
+    width: 30%;
   }
 }

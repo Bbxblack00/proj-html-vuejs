@@ -21,6 +21,12 @@ header .row .sub-container button, header .row .sub-container input {
   border-radius: 7px;
 }
 
+.container.blogs {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+
 header {
   background-color: white;
   position: fixed;
@@ -228,10 +234,10 @@ header .row .sub-container button:hover {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: auto;
   height: 793px;
-  padding: 100px 0;
   width: 80%;
+}
+.container.blogs .row:first-child {
   text-align: center;
 }
 .container.blogs h1 {
@@ -244,6 +250,9 @@ header .row .sub-container button:hover {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+}
+.container.blogs .benefits, .container.blogs .things, .container.blogs .calm {
+  width: 30%;
 }
 
 * {

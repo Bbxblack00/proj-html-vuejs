@@ -3,6 +3,8 @@ $lk-watergreen: #40E0D0;
 
 $lk-darkviolet: #3f146e;
 
+$ft-bkblack: #171621;
+
 // Extend
 %fix-box {
   position: fixed;
@@ -36,4 +38,10 @@ $lk-darkviolet: #3f146e;
 
   border: 0;
   border-radius: 7px;
+}
+
+%padding-roules{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 auto;
 }
