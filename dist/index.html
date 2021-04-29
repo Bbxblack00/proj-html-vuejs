@@ -21,34 +21,33 @@
           <div class="row">
 
             <ul>
-              <li v-for="link in links">
+              <li v-for="link in links" @mouseover = " hover = true " @mouseleave = " hover = false ">
                 <a href="#">{{ link }}</a>
                 <i class="fas fa-chevron-down sz-lt"></i>
-
-                <div class="menu">
-
-                  '<div class="menu-container">
-
-                    <ul>
-                      <li>
-                        <a href="#">Esempio menu</a>
-                      </li>
-
-                      <li>
-                        <a href="#">Esempio menu</a>
-                      </li>
-
-                      <li>
-                        <a href="#">Esempio menu</a>
-                      </li>
-                    </ul>'
-
-                  </div>
-
-                </div>
-
               </li>
             </ul>
+
+            <div class="menu" v-if="hover">
+
+              <div class="menu-container">
+
+                <ul>
+                  <li>
+                    <a href="#">Esempio menu</a>
+                  </li>
+
+                  <li>
+                    <a href="#">Esempio menu</a>
+                  </li>
+
+                  <li>
+                    <a href="#">Esempio menu</a>
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
 
           </div>
 
@@ -354,7 +353,7 @@
                 <span class="tx-green">Newsletters</span>
               </h1>
 
-              <h3 class="gary">
+              <h3 class="gray">
                 Enter your email address to register to our newsletter subscription delivered on a regular basis!
               </h3>
 

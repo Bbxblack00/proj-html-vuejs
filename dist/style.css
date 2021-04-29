@@ -283,11 +283,18 @@ header .row .sub-container button:hover {
   width: 20%;
 }
 
-.container.blogs .row h1 {
+.container.subscribe {
+  margin: 100px 0;
+  max-width: 570px;
+  text-align: center;
+}
+
+.row h1 {
   font-size: 45px;
 }
-.container.blogs .row h3 {
+.row h3 {
   font-size: 15px;
+  margin: 30px 0;
 }
 
 * {
