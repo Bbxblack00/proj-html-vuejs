@@ -304,9 +304,18 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+
+    .gray {
+      margin-left: 7px;
+    }
+
+    img{
+    width: 95%;
+    border-radius: 5px;
+    }
   }
 
-  .benefits, .things, .calm {
+  .benefits, .things, .calm{
     width: 30%;
   }
 }

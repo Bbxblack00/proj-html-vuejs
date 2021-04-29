@@ -251,6 +251,13 @@ header .row .sub-container button:hover {
   justify-content: space-between;
   flex-direction: row;
 }
+.container.blogs .row:last-child .gray {
+  margin-left: 7px;
+}
+.container.blogs .row:last-child img {
+  width: 95%;
+  border-radius: 5px;
+}
 .container.blogs .benefits, .container.blogs .things, .container.blogs .calm {
   width: 30%;
 }
