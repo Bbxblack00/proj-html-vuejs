@@ -21,13 +21,13 @@
           <div class="row">
 
             <ul>
-              <li v-for="link in links" @mouseover = " hover = true " @mouseleave = " hover = false ">
+              <li v-for="link in links">
                 <a href="#">{{ link }}</a>
                 <i class="fas fa-chevron-down sz-lt"></i>
 
-                <div class="menu" v-if=" hover ">
+                <div class="menu">
 
-                  <div class="menu-container">
+                  '<div class="menu-container">
 
                     <ul>
                       <li>
@@ -41,7 +41,7 @@
                       <li>
                         <a href="#">Esempio menu</a>
                       </li>
-                    </ul>
+                    </ul>'
 
                   </div>
 

@@ -3,8 +3,34 @@ function initVue() {
   new Vue({
   el: '#app',
   data: {
-    links: ['Home', 'Pages', 'Courses', 'features', 'Blog', 'Shop'],
+    links: [{
+      nome:'Home',
+      code: '<div class="menu-container">
+
+        <ul>
+          <li>
+            <a href="#">Esempio menu</a>
+          </li>
+
+          <li>
+            <a href="#">Esempio menu</a>
+          </li>
+
+          <li>
+            <a href="#">Esempio menu</a>
+          </li>
+        </ul>'
+    },
+    'Pages', 'Courses', 'features', 'Blog', 'Shop'],
+
+      }
+    ]
     hover: false
+  },
+  methods: {
+    menuDrop: function() {
+
+    }
   }
 });
 }

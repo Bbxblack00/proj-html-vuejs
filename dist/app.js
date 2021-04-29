@@ -7,17 +7,7 @@
   \********************/
 /***/ (() => {
 
-function initVue() {
-  new Vue({
-    el: '#app',
-    data: {
-      links: ['Home', 'Pages', 'Courses', 'features', 'Blog', 'Shop'],
-      hover: false
-    }
-  });
-}
-
-initVue();
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\sass\\proj-html-vuejs\\src\\app.js: Unterminated string constant (9:8)\n\n\u001b[0m \u001b[90m  7 |\u001b[39m     menus\u001b[33m:\u001b[39m [\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m       {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m         \u001b[32m'<div class=\"menu-container\">\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m           \u001b[33m<\u001b[39m\u001b[33mul\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33mli\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at Parser._raise (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at Parser.raiseWithData (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at Parser.raise (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at Parser.readString (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:9135:20)\n    at Parser.getTokenFromCode (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:8773:14)\n    at Parser.nextToken (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:8300:12)\n    at Parser.next (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:8230:10)\n    at Parser.parseObjectLike (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11474:10)\n    at Parser.parseExprAtom (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11048:23)\n    at Parser.parseExprSubscripts (C:\\sass\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:10709:23)");
 
 /***/ }),
 
