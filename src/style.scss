@@ -15,8 +15,11 @@ body, a {
   @extend %text-font;
 }
 
-section {
-  padding: 0 auto;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container {

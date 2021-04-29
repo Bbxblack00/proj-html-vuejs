@@ -224,14 +224,38 @@ header .row .sub-container button:hover {
   background-color: #3f146e;
 }
 
+.container.blogs {
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 793px;
+  padding: 100px 0;
+  width: 75%;
+  text-align: center;
+}
+.container.blogs h1 {
+  font-size: 45px;
+}
+.container.blogs h3 {
+  font-size: 15px;
+}
+.container.blogs .row:last-child {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-section {
-  padding: 0 auto;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container {

@@ -276,3 +276,30 @@ header {
     }
   }
 }
+
+
+.container.blogs{
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  height: 793px;
+
+  padding: 100px 0;
+  width: 75%;
+
+  text-align: center;
+
+  h1 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+
+  .row:last-child {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
