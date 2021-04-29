@@ -311,3 +311,7 @@ main {
 .vdk-gray {
   color: gray;
 }
+
+.active {
+  display: block;
+}
