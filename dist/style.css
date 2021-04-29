@@ -129,6 +129,21 @@ header .row .sub-container button:hover {
   background-color: #40E0D0;
 }
 
+.menu {
+  height: 150px;
+  position: fixed;
+  top: 80px;
+  z-index: 2;
+  background: white;
+}
+.menu .menu-container {
+  display: flex;
+}
+.menu .menu-container ul {
+  margin-top: 40px;
+  flex-direction: column;
+}
+
 #f-space {
   justify-content: center;
   flex-wrap: wrap;
@@ -313,5 +328,5 @@ main {
 }
 
 .active {
-  display: block;
+  display: table;
 }

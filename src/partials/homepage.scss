@@ -144,6 +144,31 @@ header {
     }
 }
 
+.menu{
+  // display: none;
+
+  height: 150px;
+
+  position: fixed;
+
+  top: 80px;
+
+  z-index: 2;
+
+  background: white;
+
+  .menu-container{
+    display: flex;
+
+    ul{
+      margin-top: 40px;
+      flex-direction: column;
+    }
+  }
+
+
+}
+
 #f-space {
   justify-content: center;
   flex-wrap: wrap;
