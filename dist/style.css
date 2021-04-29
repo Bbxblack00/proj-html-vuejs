@@ -288,13 +288,23 @@ header .row .sub-container button:hover {
   max-width: 570px;
   text-align: center;
 }
-
-.row h1 {
+.container.subscribe .row h1 {
   font-size: 45px;
 }
-.row h3 {
+.container.subscribe .row h3 {
   font-size: 15px;
   margin: 30px 0;
+}
+
+footer {
+  background-color: #171621;
+  height: 405px;
+  padding: 0 auto;
+}
+footer .container {
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 * {

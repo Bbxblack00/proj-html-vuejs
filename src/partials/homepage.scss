@@ -358,7 +358,6 @@ header {
     margin: 100px 0;
     max-width: 570px;
     text-align: center;
-}
 
   .row {
 
@@ -372,3 +371,21 @@ header {
       margin: 30px 0;
     }
   }
+}
+
+
+footer {
+  background-color: $ft-bkblack;
+
+  height: 405px;
+
+  padding: 0 auto;
+
+  .container{
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    color: white;
+  }
+}
