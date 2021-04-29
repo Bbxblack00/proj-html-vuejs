@@ -283,10 +283,12 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
 
+  display:
+
   height: 793px;
 
   padding: 100px 0;
-  width: 75%;
+  width: 80%;
 
   text-align: center;
 
@@ -301,5 +303,9 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+  }
+
+  .benefits, .things, .calm {
+    
   }
 }

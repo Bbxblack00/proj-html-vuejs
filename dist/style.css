@@ -228,9 +228,10 @@ header .row .sub-container button:hover {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  margin: auto;
   height: 793px;
   padding: 100px 0;
-  width: 75%;
+  width: 80%;
   text-align: center;
 }
 .container.blogs h1 {
